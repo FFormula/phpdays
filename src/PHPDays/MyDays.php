@@ -1,6 +1,6 @@
 <?php
 
-namespace Volosatov\Demo;
+namespace Volosatov\PHPDays;
 
 class MyDays
 {

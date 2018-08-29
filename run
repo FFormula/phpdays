@@ -1,10 +1,11 @@
 #!/usr/bin/env php
 <?php
 
-include "src/class.MyDays.php";
+include "vendor/autoload.php";
+
 $birthDate = "1978-09-22";
 
-$myDays = new Volosatov\Demo\MyDays($birthDate);
+$myDays = new Volosatov\PHPDays\MyDays($birthDate);
 
 $totalDays = $myDays->getTotalDays();
 
